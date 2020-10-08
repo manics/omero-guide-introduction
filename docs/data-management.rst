@@ -3,19 +3,18 @@ Data management and cooperation
 
 In this document, we introduce the basic concepts of data management,
 such as browsing, navigating to others’ data, and changing the display
-of the images in OMERO. The example here uses OMERO.web, but majority of
+of the images in OMERO. The example here uses OMERO.web, but the majority of
 the features described here are also present in OMERO.insight.
 
 Further, we show how to use the Command Line Interface (CLI) for data management,
-introducting mainly the features which are not present in the OMERO.web.
+introducing mainly the features which are not present in OMERO.web.
 
 Description
 -----------
 
 We will show:
 
--  How to browse data in OMERO.web, navigating to yours and other users’ Images.
-
+-  How to browse data in OMERO.web, navigating to your and other users’ Images.
 
 -  How to use the basic layout of OMERO.web for Images organized in Projects and Datasets.
 
@@ -27,13 +26,13 @@ We will show:
 
 -  How to organize Images in Projects and Datasets.
 
--  How to move the data between groups if you are data owner.
+-  How to move the data between groups if you are the data owner.
 
 -  How to move the data between groups if you are an administrator working on behalf of others.
 
--  How to use Command Line for duplicating objects such as Images, Datasets or Projects.
+-  How to use the Command Line for duplicating objects such as Images, Datasets or Projects.
 
--  How to use Command Line for changing the ownership of objects.
+-  How to use the Command Line for changing the ownership of objects.
 
 Setup
 -----
@@ -188,7 +187,7 @@ Browsing and rendering
    For example, using the context menu for a Dataset in the tree,
    select ``Rendering Settings > Set Imported and Save``.
 
-#. Stay in ``General`` tab of the right-nand pane and adjust the channel names:
+#. Stay in the ``General`` tab of the right-nand pane and adjust the channel names:
 
    - Select any image inside that Dataset and click on the pencil |image16| icon in the right-hand pane next to Channels.
 
@@ -295,7 +294,7 @@ in the original group which are not being moved.
 
 Note that except for using OMERO.web described below,
 it might be worth in some situations to consider moving data
-between groups using the Command Line Interface see
+between groups using the Command Line Interface, see
 `CLI Moving Objects between Groups <https://docs.openmicroscopy.org/omero/latest/users/cli/chgrp.html>`_.
 
 Move data between groups: owners of data
